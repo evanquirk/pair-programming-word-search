@@ -1,3 +1,5 @@
+// Peer Programming with Preeti Rani
+
 const transpose = function(matrix) {
   const rows = matrix.length;
   const cols = matrix[0].length;
@@ -12,7 +14,6 @@ const transpose = function(matrix) {
   }
   return newArr;
 };
-
 
 const wordSearch = (letters, word) => {
   const horizontalJoin = letters.map(ls => ls.join(''));
